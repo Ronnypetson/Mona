@@ -6,14 +6,10 @@
     android:layout_height="match_parent"
     tools:context="com.example.mona_002.ListaPacientes">
 
-    <menu xmlns:android="http://schemas.android.com/apk/res/android">
-        <item android:id="@+id/new_game"
-            android:icon="@drawable/bw_narc_2"
-            android:title="new game"
-            android:showAsAction="ifRoom"/>
-        <item android:id="@+id/help"
-            android:icon="@drawable/bw_narc_2"
-            android:title="HELP" />
-    </menu>
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
+    </ListView>
 </RelativeLayout>

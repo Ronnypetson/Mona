@@ -60,6 +60,7 @@
         android:layout_below="@+id/editText2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="42dp"
+        android:onClick="entrar"
         android:text="Entrar" />
 
     <Button
