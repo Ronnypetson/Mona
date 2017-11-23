@@ -15,7 +15,7 @@ public class ListaPacientes extends AppCompatActivity {
 
         //Intent intent = getIntent();
         // Using ArrayAdapter
-        String[] StringArray = {"1","2","3"};
+        String[] StringArray = {"Quagmire"};
         ArrayAdapter adapter = new ArrayAdapter<String>(this,R.layout.activity_listview,StringArray);
         ListView listView = (ListView) findViewById(R.id.list_view);
         listView.setAdapter(adapter);
