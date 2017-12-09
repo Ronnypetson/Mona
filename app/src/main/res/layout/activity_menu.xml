@@ -8,7 +8,7 @@
     tools:context="com.example.mona_002.ListaPacientes">
 
     <ListView
-        android:id="@+id/list_view"
+        android:id="@+id/list_view2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentLeft="true"
@@ -38,7 +38,7 @@
         android:layout_alignLeft="@+id/checkBox"
         android:layout_alignParentTop="true"
         android:layout_alignStart="@+id/checkBox"
-        android:onClick="seeMenu"
-        android:text="Menu" />
+        android:onClick="seeMainPage"
+        android:text="Tela principal" />
 
 </RelativeLayout>

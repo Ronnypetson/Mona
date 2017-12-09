@@ -247,6 +247,7 @@
         android:layout_alignRight="@+id/editText24"
         android:layout_below="@+id/editText24"
         android:layout_marginTop="7dp"
+        android:onClick="seeMainScreen"
         android:text="Cadastrar" />
 
 </RelativeLayout>

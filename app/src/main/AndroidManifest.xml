@@ -29,13 +29,14 @@
             android:label="Monitorados" />
         <activity
             android:name=".Monitored_Screen"
-            android:theme="@style/GreenTheme"
-            android:label="Quagmire"/>
+            android:label="Quagmire"
+            android:theme="@style/GreenTheme" />
         <activity android:name=".lista_pacientes_test" />
         <activity
             android:name=".CadastroMonitor"
             android:label="Cadastro de monitor" />
-        <activity android:name=".CadastroMonitorado"></activity>
+        <activity android:name=".CadastroMonitorado" />
+        <activity android:name=".Menu"></activity>
     </application>
 
 </manifest> <!-- android:theme="@style/AppTheme" -->
