@@ -13,8 +13,10 @@
         android:label=""
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        android:theme="@style/GreenTheme">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/GreenTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,8 +24,18 @@
             </intent-filter>
         </activity>
         <activity android:name=".TelaLogin" />
-        <activity android:name=".ListaPacientes" />
-        <activity android:name=".Monitored_Screen"></activity>
+        <activity
+            android:name=".ListaPacientes"
+            android:label="Monitorados" />
+        <activity
+            android:name=".Monitored_Screen"
+            android:theme="@style/GreenTheme"
+            android:label="Quagmire"/>
+        <activity android:name=".lista_pacientes_test" />
+        <activity
+            android:name=".CadastroMonitor"
+            android:label="Cadastro de monitor" />
+        <activity android:name=".CadastroMonitorado"></activity>
     </application>
 
 </manifest> <!-- android:theme="@style/AppTheme" -->

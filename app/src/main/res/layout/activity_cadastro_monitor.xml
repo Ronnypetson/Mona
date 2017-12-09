@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mona_002.CadastroMonitor">
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="21dp"
+        android:text="Nome"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editText13"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView20"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView20"
+        android:layout_alignStart="@+id/textView20"
+        android:layout_below="@+id/editText13"
+        android:layout_marginTop="14dp"
+        android:text="Data de nascimento"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editText16"
+        android:layout_width="120dp"
+        android:layout_height="36dp"
+        android:layout_alignEnd="@+id/editText13"
+        android:layout_alignRight="@+id/editText13"
+        android:layout_alignTop="@+id/textView24"
+        android:ems="10"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView24"
+        android:layout_alignStart="@+id/textView24"
+        android:layout_alignTop="@+id/editText17"
+        android:text="E-mail"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editText17"
+        android:layout_width="150dp"
+        android:layout_height="36dp"
+        android:layout_alignEnd="@+id/editText16"
+        android:layout_alignRight="@+id/editText16"
+        android:layout_below="@+id/editText16"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView25"
+        android:layout_alignStart="@+id/textView25"
+        android:layout_below="@+id/editText17"
+        android:layout_marginTop="12dp"
+        android:text="CPF"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editText19"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/textView27"
+        android:layout_alignLeft="@+id/editText17"
+        android:layout_alignStart="@+id/editText17"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView27"
+        android:layout_alignStart="@+id/textView27"
+        android:layout_below="@+id/textView27"
+        android:layout_marginTop="10dp"
+        android:text="Sexo"
+        android:textSize="18sp" />
+
+    <RadioButton
+        android:id="@+id/radioButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView28"
+        android:layout_alignBottom="@+id/textView28"
+        android:layout_alignEnd="@+id/editText19"
+        android:layout_alignRight="@+id/editText19"
+        android:text="Feminino" />
+
+    <RadioButton
+        android:id="@+id/radioButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/radioButton5"
+        android:layout_toLeftOf="@+id/radioButton5"
+        android:layout_toStartOf="@+id/radioButton5"
+        android:text="Masculino" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView28"
+        android:layout_alignStart="@+id/textView28"
+        android:layout_below="@+id/radioButton6"
+        android:layout_marginTop="10dp"
+        android:text="Endereço"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editText20"
+        android:layout_width="150dp"
+        android:layout_height="36dp"
+        android:layout_alignEnd="@+id/radioButton5"
+        android:layout_alignRight="@+id/radioButton5"
+        android:layout_alignTop="@+id/textView29"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView25"
+        android:layout_alignRight="@+id/textView25"
+        android:layout_below="@+id/editText20"
+        android:layout_marginTop="7dp"
+        android:text="Senha"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editText22"
+        android:layout_width="150dp"
+        android:layout_height="36dp"
+        android:layout_alignLeft="@+id/editText20"
+        android:layout_alignStart="@+id/editText20"
+        android:layout_alignTop="@+id/textView30"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView30"
+        android:layout_alignStart="@+id/textView30"
+        android:layout_alignTop="@+id/editText23"
+        android:text="Repetir senha"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editText23"
+        android:layout_width="150dp"
+        android:layout_height="36dp"
+        android:layout_alignLeft="@+id/editText22"
+        android:layout_alignStart="@+id/editText22"
+        android:layout_below="@+id/editText22"
+        android:layout_marginTop="9dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView31"
+        android:layout_alignStart="@+id/textView31"
+        android:layout_below="@+id/editText23"
+        android:layout_marginTop="13dp"
+        android:text="Médico?"
+        android:textSize="18sp" />
+
+    <RadioButton
+        android:id="@+id/radioButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView32"
+        android:layout_alignBottom="@+id/textView32"
+        android:layout_alignEnd="@+id/editText23"
+        android:layout_alignRight="@+id/editText23"
+        android:text="Não" />
+
+    <RadioButton
+        android:id="@+id/radioButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/radioButton7"
+        android:layout_alignBottom="@+id/radioButton7"
+        android:layout_toLeftOf="@+id/radioButton7"
+        android:layout_toStartOf="@+id/radioButton7"
+        android:text="Sim" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView32"
+        android:layout_alignStart="@+id/textView32"
+        android:layout_below="@+id/radioButton8"
+        android:layout_marginTop="11dp"
+        android:text="CRM"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editText24"
+        android:layout_width="150dp"
+        android:layout_height="36dp"
+        android:layout_alignEnd="@+id/radioButton7"
+        android:layout_alignRight="@+id/radioButton7"
+        android:layout_alignTop="@+id/textView33"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText24"
+        android:layout_alignRight="@+id/editText24"
+        android:layout_below="@+id/editText24"
+        android:layout_marginTop="7dp"
+        android:text="Cadastrar" />
+
+</RelativeLayout>

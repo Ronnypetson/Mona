@@ -12,51 +12,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
+        android:layout_alignParentStart="false"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="63dp"
-        android:background="@android:color/holo_green_light">
+        android:layout_marginTop="5dp"
+        android:background="@android:color/holo_green_light"
+        android:clickable="true">
 
     </ListView>
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="63dp"
-        android:layout_marginStart="63dp"
-        android:layout_marginTop="9dp"
-        android:layout_toEndOf="@+id/button5"
-        android:layout_toRightOf="@+id/button5"
-        android:text="Dona Maria"
-        android:textSize="24sp"
-        android:textStyle="bold" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignTop="@+id/textView3"
-        android:layout_marginEnd="24dp"
-        android:layout_marginRight="24dp"
-        android:background="@android:color/holo_green_dark"
-        android:text="voltar"
-        android:textSize="20sp" />
-
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignTop="@+id/textView3"
-        android:layout_marginLeft="7dp"
-        android:layout_marginStart="7dp"
-        android:background="@android:color/holo_green_dark"
-        android:text="=="
-        android:textSize="24sp" />
 
 </RelativeLayout>

@@ -19,6 +19,13 @@ public class MainActivity extends AppCompatActivity {
         //this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         //this.setContentView(R.layout.activity_main);
 
+        //Remove title bar
+        //this.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        //Remove notification bar
+        //this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        //set content view AFTER ABOVE sequence (to avoid crash)
+        //this.setContentView(R.layout.activity_main);
+
         new Handler().postDelayed(new Runnable(){
             @Override
             public void run(){
